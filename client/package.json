@@ -7,11 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "engines": {
+    "preview": "vite preview"
+  },
+  "engines": {
     "node": "18.x"
-}
-
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
@@ -28,15 +27,9 @@
     "jwt-decode": "^4.0.0",
     "lucide-react": "^0.503.0",
     "postcss": "^8.5.3",
-<<<<<<< HEAD
-    "react": "^18.3.1",
-    "react-circular-progressbar": "^2.2.0",
-    "react-dom": "^18.3.1",
-=======
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-circular-progressbar": "^2.2.0",
->>>>>>> d6f7b99abfe3e660215bff55786949e53e94e34a
     "react-icons": "^5.5.0",
     "react-linkify": "^1.0.0-alpha",
     "react-parallax-mouse": "^2.1.0",
