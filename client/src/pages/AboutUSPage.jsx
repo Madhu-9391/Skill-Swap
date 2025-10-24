@@ -9,41 +9,16 @@ import Background from "../components/background/Background";
 import "../components/background/Background.css";
 
 // Importing images
-import ahmadImg from "../assets/ahmad.jpg";
-import wahajImg from "../assets/wahaj.jpg";
-import miraalImg from "../assets/miraal.jpg";
-import muneebImg from "../assets/muneeb.jpg";
-
+import madhuimage from "../assets/madhu.png";
 // Team data with images
 const team = [
   {
-    name: "Ahmad Wyne",
-    role: "Backend Developer",
-    image: ahmadImg,
-    linkedin: "https://www.linkedin.com/in/ahmad-wyne-179511253/",
-    github: "https://github.com/ahmadwyne",
-  },
-  {
-    name: "Wahaj Asif",
-    role: "Frontend Developer",
-    image: wahajImg,
-    linkedin: "https://www.linkedin.com/in/muhammad-wahaj-asif-7a9118254/",
-    github: "https://github.com/coderwahaj",
-  },
-  {
-    name: "Miraal Fatima",
-    role: "Frontend Developer",
-    image: miraalImg,
-    linkedin: "https://www.linkedin.com/in/miraal-fatima-/",
-    github: "https://github.com/MiraalFatima",
-  },
-  {
-    name: "Muhammad Muneeb",
-    role: "Backend Developer",
-    image: muneebImg,
-    linkedin: "https://www.linkedin.com/in/muhammad-muneeb-147322247/",
-    github: "https://github.com/themuneeeb",
-  },
+    name: "Puppala Madhuvenu",
+    role: "Full Stack Developer",
+    image: madhuimage,
+    linkedin: "https://www.linkedin.com/in/madhuvenu-vits/",
+    github: "https://github.com/Madhu-9391",
+  }
 ];
 
 const AboutUsPage = () => {
