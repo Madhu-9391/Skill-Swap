@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
 import AdminNavbar from '../components/admin/Navbar';
-import AdminSidebar from '../components/admin/AdminSideBar';
+import AdminSideBar from '../components/admin/AdminSideBar';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchProfile } from '../redux/slices/adminProfileSlice';
 
