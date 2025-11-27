@@ -10,7 +10,7 @@ const navItems = [
   { to: 'profile', label: 'Profile', icon: <FaUserShield /> },
 ];
 
-const AdminSidebar = () => {
+const AdminSideBar = () => {
   const navigate = useNavigate();
   const token = localStorage.getItem('token');
   const user = token ? JSON.parse(localStorage.getItem('user')) : null;
@@ -63,4 +63,4 @@ const AdminSidebar = () => {
   );
 };
 
-export default AdminSidebar;
+export default AdminSideBar;
